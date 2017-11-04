@@ -127,7 +127,7 @@ static void scChangeCallback(SCDynamicStoreRef store, CFArrayRef changedKeys, vo
 
 	// On first load set the version string with a clickable link
         //NSString*webpageURL=@"http://ragingmenace.com/";
-        NSString*webpageURL=@"http://member.ipmu.jp/yuji.tachikawa/MenuMetersElCapitan/";
+        NSString*webpageURL=@"https://github.com/RoaddogLabs/MenuMeters";
 	NSMutableAttributedString *versionInfoString =
 		[[[NSBundle bundleForClass:[self class]] infoDictionary] objectForKey:@"CFBundleGetInfoString"];
 	NSMutableAttributedString *linkedVersionString =
